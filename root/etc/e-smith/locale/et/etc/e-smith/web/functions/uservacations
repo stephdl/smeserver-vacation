@@ -1,0 +1,45 @@
+<lexicon lang="et">
+    <entry>
+      <base>User vacations</base>
+      <trans>Kasutajate automaatvastused</trans>
+    </entry>
+    <entry>
+      <base>Vacation Message</base>
+      <trans>Automaatvastus</trans>
+    </entry>
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Muuda kasutaja automaatvastuse seadeid</trans>
+    </entry>
+    <entry>
+      <base>DESCRIPTION</base>
+      <trans>Sa saad muuta kasutajate automaatvastust kui klikid lingile nende nime kõrval.</trans>
+    </entry>
+    <entry>
+      <base>LABEL_VACATION</base>
+      <trans>Automaatvastus</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_DESCRIPTION</base>
+      <trans><![CDATA[ <p> Sisesta automaatvastus siia. Võid kasutada "$SUBJECT" ükskõik kus tekstis teema asendatatkse automaatselt kui  automaatvastus aktiveeritakse</p> <p> Teade tuleb koostada kahes osas mis on eraldatatud tühja reaga. Esimene osa lisatakse kirja päisesse meilile vastamisel teise  kirjutatatakse kirja sisu. Jälgi, et kirja sisu vahele jääks vähmalt üks tühi rida </p> <p> Peamine domeeni nimi lisatakse automaatselt, sa võid lisada ka virtuaalseid domeene. Automaatvastuses tehtud muudatuste tühistamiseks trüki "reset". </p> ]]></trans>
+    </entry>
+    <entry>
+      <base>MESSAGE</base>
+      <trans>Automaatvastuse teade</trans>
+    </entry>
+    <entry>
+      <base>VACATION_STATUS</base>
+      <trans>Luba automaatvastus</trans>
+    </entry>
+    <entry>
+      <base>FROM</base>
+      <trans>Kellelt:</trans>
+    </entry>
+    <!-- this is read into a ~/.vacation.msg verbatim
+    leave a blank line after the subject line but not before, 
+    and don't translate $SUBJECT -->
+    <entry>
+      <base>AWAY_FROM_MAIL</base>
+      <trans><![CDATA[ Subject: Re: $SUBJECT - Away from my email <p> I will not be reading my mail for a while. Your mail regarding </p><p> $SUBJECT </p><p> will be read when I return. </p> ]]></trans>
+    </entry>
+</lexicon>

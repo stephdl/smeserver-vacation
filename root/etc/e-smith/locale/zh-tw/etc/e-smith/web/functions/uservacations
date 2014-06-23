@@ -1,0 +1,45 @@
+<lexicon lang="zh-tw">
+    <entry>
+      <base>User vacations</base>
+      <trans>使用者假期</trans>
+    </entry>
+    <entry>
+      <base>Vacation Message</base>
+      <trans>假期留言</trans>
+    </entry>
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>更改使用者假期設定</trans>
+    </entry>
+    <entry>
+      <base>DESCRIPTION</base>
+      <trans>您可以透過按下使用者右側連結改變使用者假期留言</trans>
+    </entry>
+    <entry>
+      <base>LABEL_VACATION</base>
+      <trans>假期</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_DESCRIPTION</base>
+      <trans><![CDATA[ <p>請於此處輸入假期訊息。您可於文字中任意使用 "$SUBJECT" 以便取代主動回覆郵件中的主旨欄。 </p> <p> 此訊息由兩部分空白行組成。前面的部分將被整合到，您必須確認輸入訊息之前至少留一空白行。</p> <p>主域名將主動加入位址，或者您亦可手動輸入虛擬網域。改變假期訊息回到預設值請按"reset"。</p> ]]></trans>
+    </entry>
+    <entry>
+      <base>MESSAGE</base>
+      <trans>假期留言</trans>
+    </entry>
+    <entry>
+      <base>VACATION_STATUS</base>
+      <trans>允許假期留言</trans>
+    </entry>
+    <entry>
+      <base>FROM</base>
+      <trans>從：</trans>
+    </entry>
+    <!-- this is read into a ~/.vacation.msg verbatim
+    leave a blank line after the subject line but not before, 
+    and don't translate $SUBJECT -->
+    <entry>
+      <base>AWAY_FROM_MAIL</base>
+      <trans><![CDATA[ 主旨：Re: $SUBJECT - Away from my email <p>我暫時無法讀取我的電郵。當我回來後，您的郵件</p><p> $SUBJECT </p><p>將被讀取。</p> ]]></trans>
+    </entry>
+</lexicon>

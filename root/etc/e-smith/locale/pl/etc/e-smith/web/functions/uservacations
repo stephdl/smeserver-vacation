@@ -1,0 +1,45 @@
+<lexicon lang="pl">
+    <entry>
+      <base>User vacations</base>
+      <trans>User vacations</trans>
+    </entry>
+    <entry>
+      <base>Vacation Message</base>
+      <trans>Vacation Message</trans>
+    </entry>
+    <entry>
+      <base>FORM_TITLE</base>
+      <trans>Change user vacation settings</trans>
+    </entry>
+    <entry>
+      <base>DESCRIPTION</base>
+      <trans>You can modify a users vacation message by clicking on the link to the right of their name below.</trans>
+    </entry>
+    <entry>
+      <base>LABEL_VACATION</base>
+      <trans>Vacation</trans>
+    </entry>
+    <entry>
+      <base>MODIFY_DESCRIPTION</base>
+      <trans><![CDATA[ <p> Enter a vacation message here. You can use "$SUBJECT" anywhere in the text to be replaced with the subject line from the email that activated the auto-reply. </p> <p> This message must be composed of two parts separated by a blank line. The first will be integrated into the headings of the email reply, you must thus ensure you leave at least a blank line before typing your message. </p> <p> The primary domain is added to the address automatically, or you can insert a virtual domain. To change the vacation message back to the default type "reset". </p> ]]></trans>
+    </entry>
+    <entry>
+      <base>MESSAGE</base>
+      <trans>Vacation message</trans>
+    </entry>
+    <entry>
+      <base>VACATION_STATUS</base>
+      <trans>Enable vacation messages</trans>
+    </entry>
+    <entry>
+      <base>FROM</base>
+      <trans>From:</trans>
+    </entry>
+    <!-- this is read into a ~/.vacation.msg verbatim
+    leave a blank line after the subject line but not before, 
+    and don't translate $SUBJECT -->
+    <entry>
+      <base>AWAY_FROM_MAIL</base>
+      <trans><![CDATA[ Subject: Re: $SUBJECT - Away from my email <p> I will not be reading my mail for a while. Your mail regarding </p><p> $SUBJECT </p><p> will be read when I return. </p> ]]></trans>
+    </entry>
+</lexicon>
